@@ -1,0 +1,83 @@
+@media(max-width:991px) {
+    .watch-demo-video-sec {
+        background-attachment: scroll;
+        background-image: url("Assets/images/Bottom_Curve_Mobile.png"), url(Assets/images/Bottom_Curve_Mobile_Shadow.png), url(Assets/images/Bottom_Image_Mobile.png);
+        background-position: 0px 15px, 0 222px, 0 487px;
+        background-repeat: no-repeat;
+        height: 1012px;
+        background-size: 100% 59%, 100% 40%, 100% 69%;
+        position: relative;
+        object-fit: cover;
+    }
+    .myclass-2 {
+        position: relative;
+        height: 1107px;
+    }
+    .left-bold-title-block {
+        text-align: center;
+    }
+    .text-center {
+        justify-content: center;
+        top: 55%;
+        left: 50%;
+    }
+    .small-logo {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 476px) {
+    .watch-demo-video-sec {
+        background: url("Assets/images/Bottom_Curve_Mobile.png")no-repeat, url("Assets/images/Bottom_Curve_Mobile_Shadow.png") no-repeat, url("Assets/images/Bottom_Extra_Small.png")no-repeat bottom;
+        background-size: 100% 64%, 100% 66%, 100% 43%;
+    }
+    .left-bold-title-block {
+        font-size: 36px;
+    }
+    .some-details {
+        margin-top: 0;
+    }
+    .text-center {
+        top: 58%;
+    }
+    .parent-circle {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    .another-assesment-section {
+        padding: 0 48px;
+    }
+    .assesment-heading {
+        font-size: 18px;
+    }
+    .dummy-lorem-video-sec {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 606px) {
+    .another-assesment-section {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 392px) {
+    .dummy-lorem-video-sec {
+        line-height: 22px;
+    }
+    .assesment-heading {
+        line-height: 24px;
+    }
+    .slider-text {
+        max-width: 90%;
+    }
+    .dummy-lorem-video-sec {
+        line-height: 22px;
+    }
+}

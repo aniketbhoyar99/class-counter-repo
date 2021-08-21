@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    class Students {
+        constructor(name) {
+            this.myName = name;
+        }
+        static display_name() {
+            alert(`my name is ${this.myName}`);
+        }
+    }
+    class Players extends Students {
+        constructor(name, game) {
+            super(name)
+            this.myNew = name;
+            this.myGame = game;
+        }
+        Display_game() {
+            console.log(`my game name is ${this.myGame}.my name is ${this.myNew}`);
+        }
+    }
+    let school = new Players("sumit", "football");
+    school.Display_game();
+</script>
+
+<body>
+    sumit
+</body>
+
+</html>
